@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <h1>Simple Music Player</h1>
+        <div class="track-info">
+            <p id="track-title">Select a song</p>
+            <input type="range" id="progress-bar" value="0" max="100">
+        </div>
+        <div class="controls">
+            <button id="prevBtn">⏮️</button>
+            <button id="playPauseBtn">▶️</button>
+            <button id="nextBtn">⏭️</button>
+        </div>
+        <div class="song-list">
+            <ul>
+                <li data-index="0">Beymaniyan</li>
+                <li data-index="1">Fanaa</li>
+                <li data-index="2">Bachke Bachke</li>
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
